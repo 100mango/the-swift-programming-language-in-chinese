@@ -14,6 +14,7 @@
 - [尾随闭包（Trailing Closures）](#trailing_closures)
 - [值捕获（Capturing Values）](#capturing_values)
 - [闭包是引用类型（Closures Are Reference Types）](#closures_are_reference_types)
+- [自动闭包（Autoclosures）](#Autoclosures)
 
 闭包是自包含的函数代码块，可以在代码中被传递和使用。
 Swift 中的闭包与 C 和 Objective-C 中的代码块（blocks）以及其他一些编程语言中的 匿名函数比较相似。
@@ -374,3 +375,6 @@ let alsoIncrementByTen = incrementByTen
 alsoIncrementByTen()
 // 返回的值为50
 ```
+
+<a name="Autoclosures"></a>
+## 闭包是引用类型（Closures Are Reference Types）
